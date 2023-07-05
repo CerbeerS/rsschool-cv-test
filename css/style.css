@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #bdd4d4;
+}
+
+.header_main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 20px;
+}
+
+.header_text {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.header_photo_container {
+    justify-self: end;
+}
+
+.header_photo {
+    width: 80%;
+    height: 80%;
+}
+
+.header_nav {
+    margin-left: 10px;
+    text-align: end;
+}
+.header_nav_a {
+    margin-right: 10px;
+    text-align: end;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #242424;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 22px;
+    font-weight: 800;
+    color: #1c1c1c;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+link {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000090;
+}
+
+pre {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #e8e9e9;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+    color: rgb(114, 106, 106);
+    background-color: #bdd4d4;
+}
+
+.footer_year {
+    justify-self: center;
+}
+
+.footer_rsschool {
+    justify-self: end;
+    height: 32px;
+    width: 86px;
+}
