@@ -2,44 +2,93 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: #bdd4d4;
+html {
+    scroll-behavior: smooth; 
 }
 
-.header_main {
+a {
+    color: #818f82;
+    text-decoration: none;  
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #280f36;
+}
+
+.highlight {
+    color: rgb(2, 39, 44);
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-main {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 3fr 6fr 2fr;
     align-items: center;
     padding: 20px;
+    background-color: #bdd4d4;
+    border-bottom: 1px solid #012c1e;
 }
 
-.header_text {
+.header-text {
     padding: 0px;
     margin: 0px;
     margin-left: 10px;
 }
 
-.header_photo_container {
+.header-photo-container {
     justify-self: end;
 }
 
-.header_photo {
+.header-photo {
     width: 80%;
     height: 80%;
 }
 
-.header_nav {
-    margin-left: 10px;
-    text-align: end;
-}
-.header_nav_a {
-    margin-right: 10px;
+.header-nav {
     text-align: end;
 }
 
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    line-height: 37px;
+}
+
 body {
-    width: 1200px;
+    min-height: 100vh;
     margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #192e02;
+}
+
+.section {
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #012c1e;
+}
+
+.section-title {
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform:capitalize;
+    letter-spacing: 5px;
+    color: #829985;
 }
 
 h1 {
@@ -48,31 +97,31 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
-    line-height: 24px;
-    font-weight: 900;
-    color: #242424;
     margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #0a2e01;
 }
 
 h3 {
-    font-size: 28px;
-    line-height: 22px;
-    font-weight: 800;
-    color: #1c1c1c;
     margin-bottom: 5px;
     margin-top: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 22px;
+    color: #1b5a02;
 }
 
 link {
     font-size: 22px;
-    line-height: 36px;
     font-weight: 700;
+    line-height: 36px;
     color: #000090;
 }
 
 pre {
-    width: 50%;
+    padding-top: 40px;
     margin-left: 20px;
     margin-top: 20px;
     background-color: #e8e9e9;
@@ -83,15 +132,14 @@ pre {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     padding: 20px;
-    color: rgb(114, 106, 106);
     background-color: #bdd4d4;
 }
 
-.footer_year {
+.footer-year {
     justify-self: center;
 }
 
-.footer_rsschool {
+.footer-rsschool {
     justify-self: end;
     height: 32px;
     width: 86px;
