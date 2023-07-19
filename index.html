@@ -3,181 +3,390 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae | rsschool-cv</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">  
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <title>Brooklyn Public Library</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-main">
-                <div class="header-text">
-                    <h1>Ker Vivum Ens</h1>
-                    <h2>Curriculum Vitae</h2>
-                </div>
-                <div class="header-photo-container">
-                    <img src="assets/img/photo.jpg" alt="It's me" class="header-photo">
-                </div>
-            <nav class="header-nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#personal-information" class="nav-link">Personal Information</a>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a>
-                    <li class="nav-item"><a href="#work-experience" class="nav-link">Work Experience</a>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a>
-                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a>
-                    <li class="nav-item"><a href="#special-skills" class="nav-link">Special skills</a>
-                    <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a>
-                    <li class="nav-item"><a href="#my-projects" class="nav-link">My projects</a>
-                </ul>
-            </nav>
+    <div class="outer_box">
+        <header class="header">
+            <div class="header-left">
+                Brooklyn Public Library
             </div>
-       </div>
-    </header>
-    <main>
-        <div class="container">
-        <section class="section" id="personal-information">
-            <h2 class="section-title">Personal Information</h2>
-            <ul>
-                <li>Name: <span class="highlight">Ker Vivum Ens</span></li>
-                <li>Date of birth: <span class="highlight">In the last century</span></li>
-                <li>Address: <span class="highlight">h2f Main Vertical Street, Anytown, Pangaea</span></li>
-                <li>
-                    Email:
-                    <a href="mailto:IgnotaVivumEns@outlook.com">IgnotaVivumEns@outlook.com</a>
-                </li>
-                <li>
-                    website:
-                    <a href="https://www.IgnotaVivumEns.info">https://www.IgnotaVivumEns.info</a>
-                </li>
-            </ul>
+            <div class="header-right">
+                <nav class="header-nav">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item"><a href="#about" class="header-nav-link">About</a>
+                        <li class="header-nav-item"><a href="#favorites" class="header-nav-link">Favorites</a>
+                        <li class="header-nav-item"><a href="#coffee-shop" class="header-nav-link">Coffee shop</a>
+                        <li class="header-nav-item"><a href="#contacts" class="header-nav-link">Contacts</a>
+                        <li class="header-nav-item"><a href="#library-card" class="header-nav-link">Library Card</a>
+                    </ul>
+                </nav>
+                <div class="header-profile">
+                    <a href="#profile" class="header-profile-icon"><img src="./img/svg/icon_profile.svg" alt="Profile"></a>
+                </div>
+            </div>
+        </header>
+        <section class="welcome">
+            <h1 class="welcome-text">
+                <div class="welcome-text-top">Welcome</div>
+                <div>to the Brooklyn Library</div>
+            </h1>
         </section>
-        <section class="section" id="summary">
-            <h2 class="section-title">Summary</h2>
-            <p>
-                Experienced Frontend Programmer with expertise in HTML, CSS, JavaScript,
-                and Angular. Passionate about creating visually appealing and
-                user-friendly websites and applications. Strong collaboration and
-                problem-solving skills.
+        <section class="about" id="about">
+            <div class="titel2">
+                <h2>About</h2>
+                <hr class="titel2-hr">
+            </div>
+            <p class="about-summary">
+                The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside
             </p>
-        </section>
-        <section class="section" id="work-experience">
-            <h2  class="section-title">Work Experience</h2>
-            <h3>
-                Frontend Developer at HypnoCompany
-            </h3>
-            <p><em>January 2018 - Present</em></p>
-            <ul>
-                <li>
-                    Develop and maintain multiple websites using HTML, CSS, and JavaScript
-                </li>
-                <li>
-                    Collaborate with designers and back-end developers to ensure seamless
-                    integration of front-end and back-end functionality
-                </li>
-                <li>
-                    Implement responsive design to ensure optimal user experience on all
-                    devices
-                </li>
-                <li>
-                    Utilize React to develop interactive user interfaces and web
-                    applications
-                </li>
-                <li>
-                    Write clean and organized code, adhering to best practices and company
-                    coding standards
-                </li>
-            </ul>
-            <h3>
-                Junior Frontend Developer at Abnormal Agency
-            </h3>
-            <p><em>June 2016 - December 2017</em></p>
-            <ul>
-                <li>
-                    Assisted in the development of various websites and applications using
-                    HTML, CSS, and JavaScript
-                </li>
-                <li>
-                    Worked with senior developers to troubleshoot and resolve front-end
-                    issues
-                </li>
-                <li>Participated in code reviews to ensure quality and consistency</li>
-                <li>Gained experience in responsive design and accessibility</li>
-            </ul>
-        </section>
-        <section class="section" id="education">
-            <h2  class="section-title">Education</h2>
-            <h3>
-                Bachelor of Science in Computer Science
-            </h3>
-            <p><em>Anytown University</em></p>
-            <ul>
-                <li>Graduated May 2016</li>
-                <li>
-                    Relevant Coursework: Web Development, User Interface Design,
-                    Object-Oriented Programming
-                </li>
-            </ul>
-        </section>
-        <section class="section" id="certifications">
-            <h2  class="section-title">Certifications</h2>
-            <ul>
-                <li>Responsive Web Design Certification from FreeCodeCamp</li>
-                <li>
-                    JavaScript Algorithms and Data Structures Certification from Academy
-                    of Liberty
-                </li>
-            </ul>
-        </section>
-        <section class="section" id="skills">
-            <h2  class="section-title">Skills</h2>
-            <ul>
-                <li>Proficient in HTML, CSS, JavaScript, and Angular</li>
-                <li>Strong understanding of responsive design and accessibility</li>
-                <li>Experience with version control using Git</li>
-                <li>Familiarity with Agile development methodologies</li>
-                <li>Excellent collaboration and communication skills</li>
-            </ul>
-        </section>
-        <section class="section" id="special-skills">
-            <h2  class="section-title">Special skills</h2>
-            <ul>
-                <li>Native Russian</li>
-                <li>Basic English</li>
-                <li>Driving License (Category B)</li>
-                <li>1C: Enterprise</li>
-                <li>Hobbies: studies</li>
-            </ul>
-        </section>
-        <section class="section" id="code-example">
-            <h2  class="section-title">Code example</h2>
-            <pre>
-<code class="code">    function multiply(a, b){
-        return a * b
-    }</code>
-            </pre>
-        </section>
-        <section class="section" id="my-projects">
-            <h2  class="section-title">My projects</h2>
-            <ul>
-                <li><a href="https://cerbeer.github.io/rsschool-cv/cv" target="_blank">cv markdown</a></li>
-                <li><a href="https://cerbeer.github.io/rsschool-cv/" target="_blank">cv html</a></li>
-            </ul>
-        </section>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="footer">
-                <a class="footer-github" href="https://github.com/CerBeer" target="_blank">My GitHub</a>
-                <div class="footer-year">2023</div>
-                <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
-                    <img src="assets/svg/rs_school_js.svg" alt="RS School">
-                </a>
+            <div class="about-carousel">
+                <div class="about-carousel-images">
+                    <img src="./img/about-image1.png" alt="Brooklyn Public Library" class="about-carousel-image" id="about-image1">
+                    <img src="./img/about-image2.png" alt="Brooklyn Public Library" class="about-carousel-image" id="about-image2">
+                    <img src="./img/about-image3.png" alt="Brooklyn Public Library" class="about-carousel-image" id="about-image3">
+                    <img src="./img/about-image4.png" alt="Brooklyn Public Library" class="about-carousel-image-hide" id="about-image4">
+                    <img src="./img/about-image5.png" alt="Brooklyn Public Library" class="about-carousel-image-hide" id="about-image5">
+                </div>
+                <div class="about-carousel-paginations">
+                    <label><input type="radio" id="left" name="about-carousel-paginations" value="left" checked><span class="custom-radio"></span></label>
+                    <label><input type="radio" id="middl" name="about-carousel-paginations" value="middl"><span class="custom-radio"></span></label>
+                    <label><input type="radio" id="right" name="about-carousel-paginations" value="right"><span class="custom-radio"></span></label>
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
+        <section class="favorites" id="favorites">
+            <div class="titel2">
+                <h2>Favorites</h2>
+                <hr class="titel2-hr">
+            </div>
+            <div class="favorites-seasons">
+                <div class="favorites-seasons-title">Pick favorites of season</div>
+                <ul class="favorites-seasons-list">
+                    <li class="favorites-seasons-item"><input type="radio" id="winter" name="favorites-seasons" value="winter" checked class="favorites-seasons-button"><label for="winter">Winter</label></li>
+                    <li class="favorites-seasons-item"><input type="radio" id="spring" name="favorites-seasons" value="spring" class="favorites-seasons-button"><label for="spring">Spring</label></li>
+                    <li class="favorites-seasons-item"><input type="radio" id="summer" name="favorites-seasons" value="summer" class="favorites-seasons-button"><label for="summer">Summer</label></li>
+                    <li class="favorites-seasons-item"><input type="radio" id="autumn" name="favorites-seasons" value="autumn" class="favorites-seasons-button"><label for="autumn">Autumn</label></li>
+                </ul>
+            </div>
+            <div class="favorites-book-descriptions">
+                <div class="favorites-book-description">
+                    <div class="favorites-book-description-c1">
+                        <div class="favorites-book-description-c1-text">Staff Picks</div>
+                        <div class="favorites-book-description-c1-hr"></div>
+                    </div>
+                    <div class="favorites-book-description-c2-1">
+                        The Book Eaters
+                    </div>
+                    <div class="favorites-book-description-c2-2">
+                        By Sunyi Dean
+                    </div>
+                    <div class="favorites-book-description-c3">
+                        <div class="favorites-book-description-c3-c1">
+                            <div class="favorites-book-description-c3-c1-c1">
+                                An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.
+                            </div>
+                            <div class="favorites-book-description-c3-c1-c2">
+                                <button type="button" name="button-buy" class="button-buy">Buy</button>
+                            </div>
+                        </div>
+                        <div class="favorites-book-description-c3-c2">
+                            <div class="favorites-book-description-c3-c2-c1">
+                                <div class="favorites-book-description-c3-c2-c1-1">
+                    
+                                </div>
+                                <div class="favorites-book-description-c3-c2-c1-2">
+                    
+                                </div>
+                            </div>
+                            <div class="favorites-book-description-c3-c2-c2">
+                                <img src="./img/books/book-TheBookEaters.png" alt="The Book Eaters">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="favorites-book-description">
+                    <div class="favorites-book-description-c1">
+                        <div class="favorites-book-description-c1-text">Staff Picks</div>
+                        <div class="favorites-book-description-c1-hr"></div>
+                    </div>
+                    <div class="favorites-book-description-c2-1">
+                        Cackle
+                    </div>
+                    <div class="favorites-book-description-c2-2">
+                        By Rachel Harrison
+                    </div>
+                    <div class="favorites-book-description-c3">
+                        <div class="favorites-book-description-c3-c1">
+                            <div class="favorites-book-description-c3-c1-c1">
+                                Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.
+                            </div>
+                            <div class="favorites-book-description-c3-c1-c2">
+                                <button type="button" name="button-buy" class="button-buy">Buy</button>
+                            </div>
+                        </div>
+                        <div class="favorites-book-description-c3-c2">
+                            <div class="favorites-book-description-c3-c2-c1">
+                                <div class="favorites-book-description-c3-c2-c1-1">
+                    
+                                </div>
+                                <div class="favorites-book-description-c3-c2-c1-2">
+                    
+                                </div>
+                            </div>
+                            <div class="favorites-book-description-c3-c2-c2">
+                                <img src="./img/books/book-Cackle.png" alt="The Book Eaters">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="favorites-book-description">
+                    <div class="favorites-book-description-c1">
+                        <div class="favorites-book-description-c1-text">Staff Picks</div>
+                        <div class="favorites-book-description-c1-hr"></div>
+                    </div>
+                   <div class="favorites-book-description-c2-1">
+                        Dante: Poet of the Secular World
+                    </div>
+                    <div class="favorites-book-description-c2-2">
+                        By Erich Auerbach
+                    </div>
+                    <div class="favorites-book-description-c3">
+                        <div class="favorites-book-description-c3-c1">
+                            <div class="favorites-book-description-c3-c1-c1">
+                                Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.
+                            </div>
+                            <div class="favorites-book-description-c3-c1-c2">
+                                <button type="button" name="button-buy" class="button-buy">Buy</button>
+                            </div>
+                        </div>
+                        <div class="favorites-book-description-c3-c2">
+                            <div class="favorites-book-description-c3-c2-c1">
+                                <div class="favorites-book-description-c3-c2-c1-1">
+                    
+                                </div>
+                                <div class="favorites-book-description-c3-c2-c1-2">
+                    
+                                </div>
+                            </div>
+                            <div class="favorites-book-description-c3-c2-c2">
+                                <img src="./img/books/book-Dante.png" alt="The Book Eaters">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="favorites-book-description">
+                    <div class="favorites-book-description-c1">
+                        <div class="favorites-book-description-c1-text">Staff Picks</div>
+                        <div class="favorites-book-description-c1-hr"></div>
+                    </div>
+                    <div class="favorites-book-description-c2-1">
+                        The Last Queen
+                    </div>
+                    <div class="favorites-book-description-c2-2">
+                        By Clive Irving
+                    </div>
+                    <div class="favorites-book-description-c3">
+                        <div class="favorites-book-description-c3-c1">
+                            <div class="favorites-book-description-c3-c1-c1">
+                                A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.
+                            </div>
+                            <div class="favorites-book-description-c3-c1-c2">
+                                <button type="button" name="button-buy" class="button-buy">Buy</button>
+                            </div>
+                        </div>
+                        <div class="favorites-book-description-c3-c2">
+                            <div class="favorites-book-description-c3-c2-c1">
+                                <div class="favorites-book-description-c3-c2-c1-1">
+                    
+                                </div>
+                                <div class="favorites-book-description-c3-c2-c1-2">
+                    
+                                </div>
+                            </div>
+                            <div class="favorites-book-description-c3-c2-c2">
+                                <img src="./img/books/book-LastQueen.png" alt="The Book Eaters">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="coffee-shop" id="coffee-shop">
+            <div class="titel2">
+                <h2>Coffee shop</h2>
+                <hr class="titel2-hr">
+            </div>
+            <div class="coffee-shop-about">
+                <div class="coffee-shop-about1">
+                    In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.
+                </div>
+                <div class="coffee-shop-about2">
+                    You can get a favorite book and read in coffee shop. our barista to cook you best coffee, and also you can try desserts from bakery.
+                </div>
+            </div>
+            <div class="coffee-shop-menu">
+                <div class="coffee-shop-menu-tea">
+                    <div class="coffee-shop-menu-tea-title">Coffee & Tea</div>
+                    <div class="coffee-shop-menu-tea-line">
+                        <div class="coffee-shop-menu-tea-line-1">Cold Brew Coffee</div>
+                        <div class="coffee-shop-menu-tea-line-2"></div>
+                        <div class="coffee-shop-menu-tea-line-3">$3</div>
+                    </div>
+                    <div class="coffee-shop-menu-tea-line">
+                        <div class="coffee-shop-menu-tea-line-1">French Press Pot</div>
+                        <div class="coffee-shop-menu-tea-line-2"></div>
+                        <div class="coffee-shop-menu-tea-line-3">$5</div>
+                    </div>
+                    <div class="coffee-shop-menu-tea-line">
+                        <div class="coffee-shop-menu-tea-line-1">Espresso</div>
+                        <div class="coffee-shop-menu-tea-line-2"></div>
+                        <div class="coffee-shop-menu-tea-line-3">$2</div>
+                    </div>
+                    <div class="coffee-shop-menu-tea-line">
+                        <div class="coffee-shop-menu-tea-line-1">Cappuccino</div>
+                        <div class="coffee-shop-menu-tea-line-2"></div>
+                        <div class="coffee-shop-menu-tea-line-3">$4</div>
+                    </div>
+                    <div class="coffee-shop-menu-tea-line">
+                        <div class="coffee-shop-menu-tea-line-1">Hot tea</div>
+                        <div class="coffee-shop-menu-tea-line-2"></div>
+                        <div class="coffee-shop-menu-tea-line-3">$2</div>
+                    </div>
+                    <div class="coffee-shop-menu-tea-line">
+                        <div class="coffee-shop-menu-tea-line-1">Cold tea</div>
+                        <div class="coffee-shop-menu-tea-line-2"></div>
+                        <div class="coffee-shop-menu-tea-line-3">$2</div>
+                    </div>
+                </div>
+                <div class="coffee-shop-menu-desserts">
+                    <div class="coffee-shop-menu-desserts-title">Desserts & Cakes</div>
+                    <div class="coffee-shop-menu-desserts-line">
+                        <div class="coffee-shop-menu-desserts-line-1">Forest Gateau</div>
+                        <div class="coffee-shop-menu-desserts-line-2"></div>
+                        <div class="coffee-shop-menu-desserts-line-3">$16</div>
+                    </div>
+                    <div class="coffee-shop-menu-desserts-line">
+                        <div class="coffee-shop-menu-desserts-line-1">Blue Moon</div>
+                        <div class="coffee-shop-menu-desserts-line-2"></div>
+                        <div class="coffee-shop-menu-desserts-line-3">$16</div>
+                    </div>
+                    <div class="coffee-shop-menu-desserts-line">
+                        <div class="coffee-shop-menu-desserts-line-1">Truffle Cake</div>
+                        <div class="coffee-shop-menu-desserts-line-2"></div>
+                        <div class="coffee-shop-menu-desserts-line-3">$15</div>
+                    </div>
+                    <div class="coffee-shop-menu-desserts-line">
+                        <div class="coffee-shop-menu-desserts-line-1">Chocolate Cake</div>
+                        <div class="coffee-shop-menu-desserts-line-2"></div>
+                        <div class="coffee-shop-menu-desserts-line-3">$18</div>
+                    </div>
+                    <div class="coffee-shop-menu-desserts-line">
+                        <div class="coffee-shop-menu-desserts-line-1">Poet’s Dream Cake</div>
+                        <div class="coffee-shop-menu-desserts-line-2"></div>
+                        <div class="coffee-shop-menu-desserts-line-3">$16</div>
+                    </div>
+                    <div class="coffee-shop-menu-desserts-line">
+                        <div class="coffee-shop-menu-desserts-line-1">Pineapple Cake</div>
+                        <div class="coffee-shop-menu-desserts-line-2"></div>
+                        <div class="coffee-shop-menu-desserts-line-3">$14</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="titel2">
+                <h2>Our Contacts</h2>
+                <hr class="titel2-hr">
+            </div>
+            <div class="our-contacts">
+                <div class="our-contacts-l">
+                    <div class="our-contacts-l-1">
+                        For all Library inquiries:
+                    </div>
+                    <ul class="our-contacts-l-2">
+                        <li class="our-contacts-l-2-line">Please call <a href="tel:(617) 730-2370" class="our-contacts-nav-link">(617) 730-2370</a></li>
+                        <li class="our-contacts-l-2-line">For TTY service, please call <a href="tel:(617) 730-2370" class="our-contacts-nav-link">(617) 730-2370</a></li>
+                        <li class="our-contacts-l-2-line">Putterham Library: <a href="tel:(617) 730-2385" class="our-contacts-nav-link">(617) 730-2385</a></li>
+                    </ul>
+                    <div class="our-contacts-l-3">
+                        Senior Staff
+                    </div>
+                    <div class="our-contacts-l-4">
+                        <li>Library Director:&nbsp <span class="our-contacts-l-4-link"><a href="mailto:AmandaHirst@gmail.com" class="our-contacts-nav-link">Amanda Hirst</span></a></li>
+                    </div>
+                </div>
+                <div class="our-contacts-r">
+                    <a href="https://goo.gl/maps/XxpQRdDNnYCGpLqV6" target="_blank" class="our-contacts-r-link"><img src="./img/map.png" alt="map"></a>
+                </div>
+            </div>
+        </section>
+        <section class="library-card" id="library-card">
+            <div class="titel2">
+                <h2>Digital Library Cards</h2>
+                <hr class="titel2-hr">
+            </div>
+            <div class="library-card-card">
+                <div class="library-card-card-l">
+                    <div class="library-card-card-l-title">
+                        Find your Library card
+                    </div>
+                    <div class="library-card-card-l-form">
+                        <form action="index.html" method="post">
+                            <div class="library-card-card-l-form-form">
+                                <div class="library-card-card-l-form-form-title">Brooklyn Public Library</div>
+                                <input type="text" id="readers-name" name="readers-name" class="library-card-card-l-form-form-input" placeholder="Reader's name">
+                                <input type="text" id="card-number" name="card-number" class="library-card-card-l-form-form-input" placeholder="Card number">
+                            </div>
+                            <div class="library-card-card-l-form-form-button">
+                                <button type="submit" class="library-card-card-l-form-form-button"><span class="library-card-card-l-form-form-button-label">Check the card</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="library-card-card-r">
+                    <div class="library-card-card-r-title">Get a reader card</div>
+                    <div class="library-card-card-r-descriptions">
+                        You will be able to see a reader card after logging into account or you can register a new account
+                    </div>
+                    <div class="library-card-card-r-buttons">
+                        <button type="button" class="library-card-card-r-signup-button"><span class="library-card-card-r-signup-button-label">Sign Up</span></button>
+                        <button type="button" class="library-card-card-r-login-button"><span class="library-card-card-r-login-button-label">Log in</span></button>
+                   </div>
+                </div>
+            </div>
+    </section>
+        <footer class="footer">
+                <div class="frame6, footer-frames">
+                    <div class="frame5, footer-frame">
+                        <div class="footer-left">
+                            286 Cadman Plaza, New York,<br>
+                            NY 11238, United States
+                        </div>
+                        <div class="footer-right">
+                            Mon - Fri<br>
+                            08:00 am - 07:00 pm
+                        </div>
+                    </div>
+                    <div class="frame4, footer-frame">
+                        <div class="social-media">
+                            <a href="https://twitter.com/Twitter"><img src="./img/svg/u_twitter-alt.svg" alt="twitter"></a>
+                            <a href="https://www.instagram.com"><img src="./img/svg/u_instagram.svg" alt="instagram"></a>
+                            <a href="https://www.facebook.com"><img src="./img/svg/u_facebook-f.svg" alt="facebook"></a>
+                        </div>
+                        <div class="footer-right">
+                            Sat - Sun<br>
+                            10:00 am - 06:00 pm
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-rss">
+                    <div class="footer-left">2023</div>
+                    <div class="footer-center">The Rolling Scopes School</div>
+                    <div class="footer-right">Username</div>
+                </div>
+        </footer>
+    </div>
 </body>
 </html>
